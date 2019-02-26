@@ -1,0 +1,30 @@
+{
+  "name": "event-test",
+  "version": "1.0.0",
+  "description": "testing to catch event with bc",
+  "author": "石本　大 <ismtmsr@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/vuetify": "^0.5.5",
+    "nuxt": "^2.0.0",
+    "vue-notification": "^1.3.16",
+    "web3": "^0.20.7",
+    "web3-eth-abi": "^1.0.0-beta.46"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
